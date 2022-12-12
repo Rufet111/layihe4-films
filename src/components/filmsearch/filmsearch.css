@@ -1,0 +1,38 @@
+.BoxForm {
+    display: flex;
+}
+
+.boxlabel {
+    margin-right: 12px;
+    display: inline-block;
+    font-size: 14px;
+
+}
+
+.boxinput {
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, .5);
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    width: 300px;
+   
+    
+}
+
+.submit {
+    margin-top: 15px;
+    color: #FFEEDB;
+    background-color: rgba(0, 8, 7);
+    padding: 4px 9px;
+    border: none;
+ 
+}
+
+.submit:hover:not(:disabled) {
+
+    background-color: #FFEEDB;
+    color: rgba(0, 8, 7);
+}
+

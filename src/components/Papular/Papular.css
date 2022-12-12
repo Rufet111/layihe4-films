@@ -1,0 +1,32 @@
+.favorites {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 8, 7);
+    padding: 30px 20px;
+}
+
+.Name {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 18px;
+    padding: 3px 9px;
+    border: 1px solid rgba(0, 4, 8, .4);
+    margin-bottom: 27px;
+}
+
+.List {
+    margin-bottom: 27px;
+}
+
+.Save {
+    border: none;
+    background-color: #bbc0ce;
+    padding: 12px 14px;
+    color: #FFEEDB;
+    font-size: 15px;
+    
+}
+.Save:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  
+}
